@@ -1,0 +1,4 @@
+devel/
+build/
+
+**/__pycache__/
