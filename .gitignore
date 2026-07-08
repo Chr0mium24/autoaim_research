@@ -1,9 +1,1 @@
-/clone_reports/
 /open_source_vision_repos/
-docs/arch/*
-!docs/arch/PLAN.md
-!docs/arch/RESULTS.md
-!docs/arch/26-orin-Gimbal-AutoAim/
-!docs/arch/26-orin-Gimbal-AutoAim/**
-!docs/arch/AIRS-RM-2025/
-!docs/arch/AIRS-RM-2025/**
