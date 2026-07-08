@@ -29,8 +29,9 @@
 | `RP_Infantry_Plus` | `open_source_vision_repos/RP_Infantry_Plus` | 深圳大学旧步兵视觉工程 |
 | `sp_vision_25_nonros` | `open_source_vision_repos/sp_vision_25_nonros` | 同济非 ROS 自瞄框架基线 |
 | `breeze` | `open_source_vision_repos/breeze` | 深圳大学嵌入式框架，按是否含自瞄/视觉接口说明 |
+| `sentry-auto-aim` | `open_source_vision_repos/sentry-auto-aim` | 辽宁科技大学 COD 哨兵自瞄/能量机关 ROS2 框架，源码后续补入 |
 
-`sentry-auto-aim` 未下载成功，本轮不生成源码级架构报告。
+`sentry-auto-aim` 初次 clone 失败；源码后续已补入工作区，因此追加生成源码级架构报告。
 
 ## 报告要求
 
@@ -52,4 +53,3 @@
 - 每个项目是否有 `report.md`。
 - 是否至少复制了若干相关配置或代码；若项目确实没有视觉/模型代码，在报告中说明。
 - 是否生成 `docs/arch/RESULTS.md` 总结。
-

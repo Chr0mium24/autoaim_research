@@ -35,7 +35,7 @@ Clone root: `open_source_vision_repos/`
 | `jlu_vision_26` | OK | `master` | `0dff17c` | 234M |
 | `SHtech_auto_aim` | OK | `ax650-dev-2026` | `08af342` | 233M |
 | `Climber_Vision_26` | OK | `main` | `9953692` | 47M |
-| `sentry-auto-aim` | Failed | - | - | - |
+| `sentry-auto-aim` | OK after manual source paste | `master` | `94c481f` | 93M |
 | `TGU_Vision_2026` | OK | `main` | `9e7da0b` | 220M |
 | `AT_NN_Detector` | OK | `main` | `d7ceb26` | 91M |
 | `26-orin-Gimbal-AutoAim` | OK | `main` | `f8f70f2` | 62M |
@@ -61,6 +61,12 @@ Retest after the URL was confirmed manually:
 - `git ls-remote https://git:git@gitee.com/ustl-cod/sentry-auto-aim.git` reached Gitee but failed with `Incorrect username or password (access token)`.
 - The repository web page is publicly readable and reports default branch `master`, but Gitee's archive endpoint returned `reject by [gitee]`.
 
-No partial `sentry-auto-aim` checkout was kept.
+No partial `sentry-auto-aim` checkout was kept at that time.
 
-The current directory `/home/cr/Codes/autoaim` is not a git repository, so no outer commit was created.
+Later update:
+
+- Source code was manually added under `open_source_vision_repos/sentry-auto-aim`.
+- The added source is a clean git checkout on branch `master` at commit `94c481f`.
+- A source-level architecture report was generated under `docs/arch/sentry-auto-aim/`.
+
+At the initial clone stage, `/home/cr/Codes/autoaim` was not a git repository, so no outer commit was created then. The architecture archive work later initialized a git repository and committed the generated documentation.
