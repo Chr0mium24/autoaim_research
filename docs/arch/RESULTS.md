@@ -1,16 +1,25 @@
-# 归档结果
+# 架构分析结果
 
 日期：2026-07-09
 
-本轮只处理用户指定的两个仓库：
+本轮完成了两个 RoboMaster 自瞄视觉仓库的源码级整理与落盘：
 
-| 项目 | 输出目录 | 结果 |
-| --- | --- | --- |
-| `jlu_vision_26` | `docs/arch/jlu_vision_26/` | 已生成 `report.md`，并整理 `configs/`、`code/`、`models/` |
-| `SHtech_auto_aim` | `docs/arch/SHtech_auto_aim/` | 已生成 `report.md`，并整理 `configs/`、`code/`、`models/` |
+1. `Climber_Vision_26`
+2. `TGU_Vision_2026`
 
-## 结论
+已完成内容：
 
-- `jlu_vision_26` 是一套完整的 iceoryx + fast_tf + gtsam 自瞄框架，检测侧包含装甲板与能量机关两条模型链路。
-- `SHtech_auto_aim` 是一套支持 ONNX / TensorRT / AXCL 的单体式自瞄工程，检测后接传统角点修正、PnP、跟踪和 TinyMPC 规划。
-- 两个目录都已经按要求保留了架构分析所需的关键配置、源码和小体积模型文件。
+- 复制关键配置到 `docs/arch/<项目>/configs/`
+- 复制模型与轻量资产到 `docs/arch/<项目>/models/`
+- 复制模型定义、推理封装、后处理、跟踪、预测、MPC、相机和部署相关源码到 `docs/arch/<项目>/code/`
+- 为每个项目编写中文 `report.md`
+
+文件特点：
+
+- 保留了源文件名和相对目录结构
+- 未复制 build 产物
+- 未复制大体积 `.bin` 权重
+- 只保留和模型架构、推理、检测、后处理、跟踪预测、相机与部署直接相关的文件
+
+后续如果要继续扩展，可以按同样规则补其他仓库的 `report.md` 和关键代码镜像。
+

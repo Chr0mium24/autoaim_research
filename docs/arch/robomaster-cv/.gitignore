@@ -1,9 +1,0 @@
-**/.idea/
-**/.vscode/
-**/build/
-**/__pycache__/
-build
-install
-log
-detection
-
