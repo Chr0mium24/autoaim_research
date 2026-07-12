@@ -1,0 +1,52 @@
+[submodule "open_source_vision_repos/26-orin-Gimbal-AutoAim"]
+	path = open_source_vision_repos/26-orin-Gimbal-AutoAim
+	url = https://github.com/LareinaWeii/26-orin-Gimbal-AutoAim.git
+	branch = main
+[submodule "open_source_vision_repos/AIRS-RM-2025"]
+	path = open_source_vision_repos/AIRS-RM-2025
+	url = https://github.com/BlueDarkUP/AIRS-RM-2025.git
+	branch = main
+[submodule "open_source_vision_repos/AT_NN_Detector"]
+	path = open_source_vision_repos/AT_NN_Detector
+	url = https://github.com/PraySky1337/AT_NN_Detector.git
+	branch = main
+[submodule "open_source_vision_repos/Climber_Vision_26"]
+	path = open_source_vision_repos/Climber_Vision_26
+	url = https://github.com/CCZU-Climber/Climber_Vision_26.git
+	branch = main
+[submodule "open_source_vision_repos/RP_Infantry_Plus"]
+	path = open_source_vision_repos/RP_Infantry_Plus
+	url = https://github.com/yarkable/RP_Infantry_Plus.git
+	branch = master
+[submodule "open_source_vision_repos/RobotDetectionModel"]
+	path = open_source_vision_repos/RobotDetectionModel
+	url = https://github.com/broalantaps/RobotDetectionModel.git
+	branch = main
+[submodule "open_source_vision_repos/SHtech_auto_aim"]
+	path = open_source_vision_repos/SHtech_auto_aim
+	url = https://github.com/Astra-Whale/SHtech_auto_aim.git
+	branch = ax650-dev-2026
+[submodule "open_source_vision_repos/TGU_Vision_2026"]
+	path = open_source_vision_repos/TGU_Vision_2026
+	url = https://github.com/TGURM304/TGU_Vision_2026.git
+	branch = main
+[submodule "open_source_vision_repos/breeze"]
+	path = open_source_vision_repos/breeze
+	url = https://github.com/RobotPilots-SZU/breeze.git
+	branch = main
+[submodule "open_source_vision_repos/jlu_vision_26"]
+	path = open_source_vision_repos/jlu_vision_26
+	url = https://github.com/Fskaaaaaaaa/jlu_vision_26.git
+	branch = master
+[submodule "open_source_vision_repos/robomaster-cv"]
+	path = open_source_vision_repos/robomaster-cv
+	url = https://github.com/PolySTAR-mtl/robomaster-cv.git
+	branch = main
+[submodule "open_source_vision_repos/sentry-auto-aim"]
+	path = open_source_vision_repos/sentry-auto-aim
+	url = https://gitee.com/ustl-cod/sentry-auto-aim.git
+	branch = master
+[submodule "open_source_vision_repos/sp_vision_25_nonros"]
+	path = open_source_vision_repos/sp_vision_25_nonros
+	url = https://github.com/unnc-aim/sp_vision_25_nonros.git
+	branch = main
